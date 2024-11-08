@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="css/news.css" />
+    <link rel="stylesheet" href="css/styleRes.css">
+    <link rel="stylesheet" href="css/newfliaky.css" />
+
+    <!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity-fade@2/flickity-fade.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="css/pagination.css">
+
+<!-- JS -->
+</head>
+<head>
+
+<body>
+    <header>
+      <div class="top-bar">
+        <div class="container-top-bar">
+          <div class="topbar-left">
+            <a
+              href="tel:
+                        +998 71 207-59-59
+                   "
+            >
+              +998 71 207-59-59
+            </a>
+          </div>
+          <div class="topbar-right">
+            <div class="icons">
+              <div class="icon">
+                <i class="bx bxl-telegram"></i>
+              </div>
+              <div class="icon">
+                <i class="bx bxl-instagram"></i>
+              </div>
+              <div class="icon">
+                <i class="bx bxl-facebook-square"></i>
+              </div>
+              <div class="locale">
+                <p class="uppercase">
+                  Uz<i
+                    class="bx bx-chevron-down bx-flip-horizontal"
+                    id="arrow"
+                  ></i>
+                </p>
+                <div class="locale__dropdown"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="nav-container">
+          <div class="nav-logo">
+            <a href="index.html ">
+              <img width="160px" src="img/logo-blue.svg" alt="nav-logo" />
+
+            </a>
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="http://127.0.0.1:5501/index.html#avto-salon"> Avtosalon </a></li>
+              <li><a href="http://127.0.0.1:5501/index.html#avto"> Avtomabillar </a></li>
+              <li><a href="http://127.0.0.1:5501/index.html#avto-servis"> Avtoservis </a></li>
+              <li class="hover">
+                <p>Matbuot Xizmatlari <i class="bx bxs-down-arrow"></i></p>
+                <ul class="sub-menu">
+                  <li class="white"><a href="http://127.0.0.1:5501/index.html#news">Yangiliklar</a></li>
+                  <li class="white border"><a href="http://127.0.0.1:5501/index.html#news">Aksiyalar</a></li>
+                </ul>
+              </li>
+              <li><a href=""> Aloqa </a></li>
+
+              <li>
+                <button class="header-btn"><a href="online.html">Onlayn Sotib Olish</a></button>
+              </li>
+            </ul>
+            <button id="menu-btn">
+
+              <div class="menu-btn">
+                <div class="f-line line"></div>
+                <div class="s-line line"></div>
+                <div class="t-line line"></div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="news-title">
+      <div class="news-title-text">
+        <h1>Yangiliklar</h1>
+        <p><a href="index.html">Bosh Sahifa</a> - Yangiliklar</p>
+      </div>
+      <div class="news-title-bg-img"></div>
+    </section>
+        
+    <div class="tel">
+      <i class="fa-solid fa-phone"></i>
+    </div>
+
+    <div class="tel-acide">
+        <div class="tel-acide-top">Отправьте нам сообщения</div>
+        <div class="tel-acide-text">
+          <p>Оставьте свое сообщение в этой форме, мы обязательно ответим!</p>
+          <form action="">
+            <label for="">
+              <input type="text" placeholder="Ваше имя">
+            </label>
+            <label for="">
+              <input type="number" placeholder="Ваш телефон">
+            </label>
+
+              <textarea name="" rows="5" placeholder="Ваше сообщение"></textarea>
+  
+            <button>Отправить</button>
+          </form>
+        </div>
+    </div>
+    <section class="pagination">
+      <div class="container-page">
+        <ul id="item-list">
+            <!-- JavaScript orqali elementlar qo'shiladi -->
+        </ul>
+        <div class="pagination-btn">
+            <button id="prev-btn" disabled>&laquo;</button>
+            <div id="page-numbers"></div>
+            <button id="next-btn">&raquo;</button>
+        </div>
+    </div>
+    </section>
+  </div>  
+  
+    <footer>
+      <div class="footer-container">
+        <div class="footer-flex">
+          <div class="footer-left">
+            <a href="index.html">
+              <img src="img/logo-nav.svg" alt="" />
+            </a>
+            <ul class="footer-icon">
+                <li>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-right">
+            <div class="footer-colm">
+              <ul>
+                <li><a href="">Avtosalon</a></li>
+                <li><a href="">Avtomabillar</a></li>
+                <li><a href="">Avtoservis</a></li>
+                <li><a href="">Yangiliklar</a></li>
+              </ul>
+            </div>
+            <div class="footer-colm none-flex">
+                <ul>
+                    <li><a href="">Aksiyalr</a></li>
+                <li><a href="">Oline Sotib olish</a></li>
+                <li><a href="">Aloqa</a></li>
+              </ul>
+            </div>
+            <div class="footer-colm">
+              <a href=""><i class="fa-solid fa-location-dot"></i> Manzil:</a>
+              <a href=""
+                >O'zbekiston, Toshkent,<br />
+                Shota Rustaveli ko'chasi 152A</a
+              >
+              <a href><i class="fa-solid fa-envelope"></i> info@asacar.uz</a>
+              <a href=""
+                ><i class="fa-solid fa-phone"></i> +998 71 215 77 77 <br />
+                +998 71 207 59 59</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          © 2024 ASACAR AUTOCENTER | Barcha huquqlar ximoyalangan
+        </div>
+    </div>
+</footer>
+<div class="menu">
+  <div class="blur">
+    <button id="blur"></button>
+
+  </div>
+  <div class="menu-data">
+    <div class="menu-exit">
+      <button id="menu-exit"><i class='bx bx-x'></i></button>
+    </div>
+    <img src="img/logo-nav.svg" alt="">
+    <h4>Ish vaqti</h4>
+    <p>Dushanbadan Shanbagacha</p>
+    <p>9:00 - 18:00</p>
+    <h4>Aloqa</h4>
+    <p>manzil:</p>
+    <p>O'zbekiston, Toshkent,</p>
+    <p>Shota Rustaveli ko'chasi 152A</p>
+    <p>+998 71 215 77 77 <br>
+      +998 71 207 59 59 <br>
+      info@asacar.uz</p>
+
+
+    <div class="menu-icons">
+      <div class="round">
+        <a href="">
+
+          <i class='bx bxl-telegram'></i>
+        </a>
+      </div>
+      <div class="round">
+        <a href="">
+
+          <i class='bx bxl-facebook'></i>
+        </a>
+      </div>
+      <div class="round">
+        <a href="">
+
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <script src="flickity-fade.js"></> -->
+
+<script src="http://code.jquery.com/jquery-3.6.1.js"></script>
+
+<script src="js/pagination.js"></script>
+<script src="js/news.js"></script>
+<script src="js/app.js"></script>
+  </body>
+</html>

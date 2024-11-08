@@ -1,0 +1,477 @@
+section{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: var(--heading-font);
+    padding-bottom: 100px;
+}
+
+.news-title {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: var(--heading-font);
+  }
+  .news-title-bg-img {
+    background: url(../img/new/purchase-bg.png) no-repeat;
+    background-position: center;
+    width: 1000px;
+    background-size: cover;
+  
+    height: 350px;
+  }
+  .news-title-text {
+    background-color: #fff;
+    padding: 40px 70px 45px;
+    transform: translateX(30%);
+    z-index: 1;
+    border-left: 2px solid #cad1dc;
+    position: relative;
+    width: 600px;
+  }
+  .news-title-text::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #cad1dc;
+  }
+.news-title-text::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: #cad1dc;
+  }
+.news-title-text a{
+    text-decoration: none;
+    color:var(--main-color-one);
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.news-title-text p{
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color:#181818;
+}
+.news-title-text button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: var(--main-color-one);
+    border: none;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+}
+.news-title-text button a{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: var(--heading-font);
+
+}
+.news-title-text button i{
+    color: white ;
+}
+
+.docs{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: var(--menu-font); 
+    padding:100px 0;
+}
+
+
+.docs-num{
+    display: flex;
+    align-items:top;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+}
+.docs-num button{
+    width: 40px;
+
+    height: 40px;
+    font-family: var(--menu-font);
+    border-radius:20px;
+    background-color:#e8e8e8;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color:#ababab;
+    
+}
+.docs-num p{
+    color: #ababab;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.num{
+    width: 250px;
+    
+}
+.num1-num2{
+    left: 220px;
+    
+}
+.num2-num3{
+    left: 480px;
+
+}
+.num3-num4{
+    right: 480px;
+
+}
+.num4-num5{
+    right: 220px;
+
+}
+.stick{
+    width: 220px;
+    height: 3px;
+    background-color:#e8e8e8;
+    position: absolute;   
+    top: 20px;
+    z-index: -2;
+}
+
+.selected button{
+    background-color:var(--main-color-one);
+    color:white;
+    position: relative;
+}
+.selected p{
+    color:var(--main-color-one);
+}
+.selected button::before{
+    content:"";
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color:white;
+    border:3px solid  rgb(50, 79, 173);
+    position: absolute; /* Or 'fixed' if you want it centered in the viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+
+
+
+
+/* ================== */
+
+
+.num1-section{
+ 
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+.num1-section .jis{
+    background-color: #181818;
+    box-shadow: 0 6px 20px -8px rgba(24, 24, 24, .9);
+    border: none;
+    padding: 15px 30px;
+}
+.num1-section button{
+    min-width: 180px;
+    color: #fff;
+    padding: 10px 16px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: var(--body-font);
+    font-weight: 500;
+    border:none;
+    cursor: pointer;
+}
+.num1-section .yur{
+    padding: 15px 30px;
+    background-color: #d1d1d1;
+    color: #181818;
+    box-shadow: 0 6px 20px -8px hsla(0, 0%, 82%, .9);
+
+}
+
+
+/* =====000 */
+.num2-section{
+    display: none;
+}
+.num2-section h2{
+    color:var(--heading-color);
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.num2-section-flex{
+    display: flex;
+    align-items:center;
+      flex-wrap: wrap;
+
+}
+.num2-box{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.num2-box p{
+    color: var(--paragraph-color);
+}
+.num2-box img{
+    width: 80%;
+}
+
+
+
+/* ---------------------------- */
+.num3-section{
+    display: none;
+}
+
+.num3-section h2{
+    color:var(--heading-color);
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.num3-flex{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.num3-img{
+    width: 50%;
+    text-align:end ;
+
+}
+.num3-img img{
+    width: 70%;
+}
+.num3-selector{
+    width: 50%;
+}
+.selector-container{
+    width: 60%;
+}
+label{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+    display:block;
+}
+select{
+    padding: 10px 15px;
+    width: 100%;
+    color: #222;
+    font-weight: 700;
+    border: 2px solid rgba(34, 34, 34, .13) !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    text-transform: none;
+    outline: none;
+}
+.summ span{
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+}
+.summ p{
+    color:var(--paragraph-color);
+    font-size: 36px ;
+    font-weight: 700;
+}
+.keyin{
+        margin-top: 30px;
+        color:white;
+        font-weight: 600;
+        margin-left:300px;
+        padding: 10px 35px;
+}
+
+
+/* ================ */
+
+
+
+
+.num4-section{
+    width: 900px;
+    margin: 0 auto;
+    font-family: var(--menu-font);
+    display: none;
+
+}
+.num4-section h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.main-p{
+    color: #181818;
+    font-size: 14px;
+    font-weight: 500;
+    text-align:center;
+}
+
+.num4-section h3::before{
+    content:"";
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 25px;
+    height: 2px;
+    background-color:black;
+}
+.num4-section h3::after{
+    content:"";
+    position: absolute;
+    top: 45%;
+    left: 72%;
+    width: 25px;
+    height: 2px;
+    background-color:black;
+}
+.row{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+    
+    text-align: center;
+
+}
+.row-input{
+    width: 47%;
+}
+
+.row input{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+}
+.personal-info,.Contact-info,.Pasport-info{
+    margin-top:30px ;
+}
+.personal-info p,.Contact-info p,.Pasport-info p{
+    color: #181818;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.radio{
+
+    display: flex;
+    align-items:center;
+    width: 200px;
+    margin: 30px 0 10px 0;
+    user-select: none;
+}
+.radio p{
+    display: block;
+    cursor: pointer;
+    color: #000;
+    font-weight: 700;
+    font-family: var(--heading-font);
+}
+.radio-box{
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    border:2px solid #ced4da;
+    margin-right: 10px;
+    border-radius:5px;
+}
+.radio-selected{
+    display: grid;
+    place-items: center;
+    background-color:green;
+    color:white;
+    border:none;
+
+}
+.radio-input{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    width: 96%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+.buttom p{
+    color: #181818;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 30px;
+    line-height: 30px;
+    width: 65%;
+}
+.buttom{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.buttom button{
+    padding: 5px 40px ;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--main-color-one);
+    color: #fff;
+  
+    margin-left: 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: var(--body-font);
+    font-weight: 500;
+    box-shadow: 0 6px 20px -8px rgba(32, 62, 111, .9);
+    transition: all .3s ease-in;
+}

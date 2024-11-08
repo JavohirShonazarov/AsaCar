@@ -1,0 +1,1028 @@
+@media (max-width: 1024px) {
+  section,
+  header,
+  footer,
+  .avto-servis {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .bg {
+    width: 100%;
+  }
+  .top-bar {
+    width: 100%;
+  }
+  .nav-links ul li a {
+    color: white;
+  }
+  .menu {
+    display: none;
+  }
+  .tel {
+    display: NONE;
+  }
+  .bg-video {
+    display: grid;
+    place-items: center;
+  }
+  .avto-servis-img {
+    display: grid;
+    place-content: center;
+    position: static;
+    margin-top: -150px;
+  }
+
+  .nav-links ul li {
+    font-size: 16px;
+    color: white;
+  }
+  .footer-flex {
+    justify-content: center;
+    width: 1000px !important;
+  }
+
+  .nav-logo img {
+    margin-top: 20px;
+    width: 200px;
+  }
+  .nav-links ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    right: 30px;
+    background: #0006;
+    display: none;
+    padding: 10px;
+    z-index: 20;
+    display: none;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  }
+  .nav-links ul {
+    gap: 0;
+    justify-content: unset;
+  }
+  .nav-links ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .popup-video {
+    width: 1024px;
+  }
+  .video-exit {
+    top: 220px;
+    right: 180px;
+  }
+  .swiper-img {
+    opacity: 0.5;
+    z-index: -5;
+  }
+  .news-flex {
+    width: 1000px !important;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  .flickity-viewport {
+    width: 500px !important;
+  }
+  .new-box {
+    width: 350px;
+  }
+  .swiper-img img {
+    width: 700px;
+    margin-left: -100px;
+  }
+  .avto-salon-flex {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .avto-servis-flex {
+    width: 1000px !important;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .avto-servis-video {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .avto-servis-img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+  }
+  .footer-right a {
+    font-size: 14px;
+  }
+  .footer-bottom {
+    font-size: 14px;
+  }
+  .news-title {
+    width: 1000px;
+  }
+  .docs {
+    width: 1000px;
+  }
+  .bg-video {
+    margin: 0 auto;
+  }
+  .avto-servis {
+    width: 1000px;
+  }
+  .avto-left {
+    width: 100%;
+    text-align: center;
+  }
+  .avto-boxs {
+    margin: 0 auto;
+  }
+  .nav-links ul li {
+    padding: 0;
+  }
+  .menu-btn {
+    margin: 0;
+  }
+  .form {
+    width: 1000px;
+  }
+  .container-top-bar {
+    width: 1000px !important;
+  }
+  .flickity-viewport {
+    width: 100% !important;
+  }
+  .avto-servis {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .nav-container {
+    width: 1000px !important;
+  }
+  .slider-flex {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .axborot{
+    width: 1000px !important;
+    padding: 0;
+  }
+  .avto-servis-flex {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: 0 auto;
+  }
+  .bg-video {
+    height: 400px;
+  }
+  .mySwiper {
+    height: 100vh !important;
+    overflow: hidden !important;
+  }
+  .swiper-pagination {
+    width: 1000px !important;
+  }
+  .swiper-button-next {
+    right: 25px !important;
+  }
+  .avto-servis-flex {
+    margin: 0 auto;
+    width: 1400px;
+  }
+  .news-flex {
+    width: 1400px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .top-bar {
+    width: 100%;
+  }
+  .footer-flex {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .menu-data {
+    height: 150vh !important;
+  }
+  .avto-left h6::before {
+    content: none;
+  }
+  .news h6::before,
+  .news h6::after {
+    content: none;
+  }
+  .popup-video {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 100px;
+    display: none;
+  }
+  .popup-video button {
+    position: static;
+  }
+  #blur {
+    height: 150vh !important;
+  }
+  .texno {
+    margin: 0 auto;
+  }
+  .cell-box {
+    width: 300px;
+  }
+  .cell-box img {
+    width: 100%;
+    margin: 0 auto;
+    margin-right: -100px;
+  }
+  .num4-section {
+    width: 1000px;
+  }
+  .num4-section form {
+    width: 1000px;
+  }
+  .buttom {
+    width: 1000px;
+  }
+  .row {
+    width: 1000px;
+  }
+  .num1-num2 {
+    left: 120px;
+    width: 190px;
+  }
+  .num2-num3 {
+    left: 290px;
+    width: 190px;
+  }
+  .num3-num4 {
+    right: 300px;
+    width: 190px;
+  }
+  .num4-num5 {
+    right: 110px;
+    width: 190px;
+  }
+  .news-title-text {
+    width: 600px;
+  }
+  #item-list {
+    width: 1400px !important;
+    gap: 0px;
+    margin: 0 auto;
+  }
+
+  /* car */
+  .main-flex {
+    width: 1000px;
+    margin: 50px auto;
+  }
+  .main-img {
+    width: 100%;
+  }
+  .main-img img {
+    width: 100%;
+  }
+  .car-details {
+    width: 1000px;
+  }
+  .car-details-detail {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .details {
+    text-align: start;
+    align-items: start;
+  }
+  .car-details-flex {
+    flex-direction: column;
+  }
+  .img-box {
+    width: 700px;
+  }
+  .img-box img {
+    width: 100%;
+  }
+  .about-container {
+    width: 900px;
+  }
+  .about-car {
+    height: 300px;
+  }
+  .galereya {
+    width: 1000px;
+  }
+  .galereya h6::after,
+  .galereya h6::before {
+    content: none;
+  }
+  .texno {
+    width: 1000px;
+  }
+  .price-car {
+    width: 1000px;
+  }
+  .price-car h6::after,
+  .price-car h6::before {
+    content: none;
+  }
+
+  /* news */
+
+  .pagination {
+    width: 1000px;
+  }
+  #item-list {
+    width: 1000px !important;
+    justify-content: start;
+    gap: 50px;
+  }
+  .new-box {
+    width: 300px;
+  }
+  .footer-container {
+    width: 1000px;
+  }
+}
+
+/* media 768 */
+
+@media (max-width: 768px) {
+
+
+  section,
+  header,
+  footer,
+  .avto-servis {
+    width: 768px;
+    margin: 0 auto;
+  }
+  h6{
+    font-size: 18px;
+  }
+  h3{
+    font-size: 16px
+  }
+  p{
+    font-size: 14px;
+  }
+  .bg {
+    width: 100%;
+  }
+  .top-bar {
+    width: 100%;
+  }
+  .nav-links ul li a {
+    color: white;
+  }
+  .menu {
+    display: none;
+  }
+  .tel {
+    display: NONE;
+  }
+  .bg-video {
+    display: grid;
+    place-items: center;
+  }
+  .avto-servis-img {
+    display: grid;
+    place-content: center;
+    position: static;
+    margin-top: -150px;
+  }
+  .nav-logo a img {
+    width: 150px;
+  }
+  .container-top-bar {
+    width: 700px !important;
+  }
+  .nav-container {
+    margin: 10px auto;
+    width: 700px !important;
+  }
+  .nav-links ul li {
+    font-size: 16px;
+    color: white;
+  }
+  .slider-flex {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .slide-title h1 {
+    font-size: 50px;
+  }
+  .main-text {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+  .avto-servis-flex {
+    width: 700px !important;
+  }
+  .bg-video {
+    width: 700px;
+  }
+  .auto .footer-flex {
+    justify-content: center;
+    width: 700px !important;
+  }
+
+  .nav-logo img {
+    margin-top: 20px;
+    width: 200px;
+  }
+  .nav-links ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    right: 30px;
+    background: #0006;
+    display: none;
+    padding: 10px;
+    z-index: 20;
+    display: none;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
+  }
+  .swiper-pagination{
+    width: 750px !important;
+  }
+  .nav-links ul {
+    gap: 0;
+    justify-content: unset;
+  }
+  .nav-links ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  .avto-servis {
+    width: 700px !important;
+  }
+
+  .avto-servis-video {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .flickity-slide{
+    height: 1000px !important;
+  }
+  .flickity-viewport{
+    height: 500px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .flickity-viewport
+  .avto-servis-content{
+    width: 100%;
+  }
+  .news-flex {
+    width: 700px !important;
+  }
+  .footer-container {
+    width: 768px;
+  }
+  .footer-flex {
+    width: 700px !important;
+  }
+  .none-flex{
+    display: none;
+  }
+  footer{
+    font-size: 14px;
+  }
+  .footer-bottom{
+    font-size: 12px;
+  }
+  .avto-salon-flex{
+    justify-content: center;
+    align-items:center;
+  }
+  .bg-border{
+    width: 700;
+    margin-left:20px;
+  }
+  .avtomobil h6::after,.avtomobil h6::before{
+    content:none;
+  }
+  .main-flex {
+    width: 700px;
+    margin: 50px auto;
+  }
+  .main-img {
+    width: 100%;
+  }
+  .main-img img {
+    width: 100%;
+  }
+  .car-details {
+    width: 700px;
+  }
+  .car-details-detail {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .details {
+    text-align: start;
+    align-items: start;
+  }
+  .car-details-flex {
+    flex-direction: column;
+  }
+  .img-box {
+    width: 100%;
+    text-align: center;
+    margin-left: -200px;
+  }
+  .img-box img {
+    width:650px ;
+  }
+
+  .flickity-slide{
+    width: 50px;
+  }
+  .galereya-img{
+    width: 100%;
+    height: 100%;
+  }
+  .price-box{
+    width: 300px;
+  }
+  .price-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .flickity-slide{
+    width: 600px;
+  }
+  .about-container {
+    width: 700px;
+  }
+  .about-car {
+    height: 300px;
+  }
+  .galereya {
+    width: 700px;
+  }
+  .galereya h6::after,
+  .galereya h6::before {
+    content: none;
+  }
+  .texno {
+    width: 700px;
+  }
+  .price-car {
+    width: 700px;
+  }
+  .price-car h6::after,
+  .price-car h6::before {
+    content: none;
+  }
+  .news-title{
+    width: 700px;
+  }
+   
+  .num4-section {
+    width: 700px;
+  }
+  .num4-section form {
+    width: 700px;
+  }
+  .buttom {
+    width: 650px;
+  }
+  .row {
+    width: 700px;
+  }
+  .docs{
+    width: 700px !important;
+  }
+  .num p{
+    font-size: 12px;
+  }
+  .num1-num2 {
+    left: 80px;
+
+    width: 120px;
+  }
+  .num2-num3 {
+ 
+    left: 220px;
+
+    width: 120px;
+  }
+  .num3-num4 {
+    right: 220px;
+    width: 120px;
+  }
+  .num4-num5 {
+    right: 80px;
+    width: 120px;
+  }
+  .num3-flex{
+    flex-direction: column;
+  }
+  .num3-selector{
+    width: 90%;
+  }
+  .keyin {
+    margin-left: 70% 
+  }
+  .summ p{
+    font-size: 25px
+  }
+  .summ span{
+    font-size: 18px
+  }
+  .car-madel label{
+    font-size: 18px;
+  }
+  .car-color label{
+    font-size: 18px;
+  }
+  .num2-box{
+    width: 350px; 
+
+  }
+  .num2-section-flex{
+    margin: 0 auto;
+    width: 700px;
+  }
+  .num3-img{
+    width: 700px;
+    margin: 20px 0;
+    
+  }
+  .num3-img img{
+    margin: 0 auto;
+    display: block;
+  }
+  .news-title-text{
+    width: 500px;
+    position: absolute;
+    left: 0;
+  }
+  .news-title-bg-img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -12;
+  }
+  .news-title{
+    padding: 0;
+    position: relative;
+    height: 300px;
+    width: 700px;
+    margin: 30px 0;
+  }
+   #item-list{
+    width: 700px !important;
+   }
+   .container-page{
+    width: 768px !important;
+   }
+   .pagination{
+    width: 768px !important;
+
+   }
+   .axborot{
+    width: 768px !important;
+
+   }
+
+
+
+}
+
+
+@media (max-width: 375px) {
+
+  section,
+  header,
+  footer,
+  .avto-servis {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .mySwiper{
+    padding: 30px  ;
+    height: 500px !important;
+
+  }
+  
+  .topbar-left a{
+    font-size: 10px;
+  }
+  .nav-container{
+    width: 370px !important; 
+  }
+  .icons{
+    font-size: 12px !important;
+    display: none;
+  }
+  .slider-flex{
+    width: 300px;
+    display: block;
+    position: relative;
+  }
+  .main-text{
+    width: 100%;
+  }
+  .slider-title{
+    width: 200px !important;
+
+  }
+  .slide-paragraf{
+    width: 100%;
+  }
+  .slide-paragraf p{
+    color:black;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+  }
+  .swiper-pagination{
+    display: none !important;
+  }
+  .swiper-img {
+    width: 350px; 
+    position: absolute;
+    top: 0;
+    left: 40px;
+  }
+  .info{
+    flex-direction: column;
+    display: none;
+  }
+  .swiper-img img{
+    width: 120%;
+    opacity: 0.2;
+    object-fit: contain !important;
+  }
+  .swiper-button-next{
+    display: none;
+  }
+  .container-top-bar{
+    width: 350px !important;
+  }
+
+  h6 {
+    font-size: 14px;
+    padding: 0;
+  }
+  h6::before{
+    content:none;
+
+  }
+  h6::after{
+    content:none;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+  .avto-salon-flex{
+    width: 350px !important;
+    margin: 0 auto;
+  }
+  .avto-right{
+    width: 350px;
+    height: 200px;
+  }
+  .bg-border{
+    width: 320px;
+    left: -5px;
+  }
+  .avto-left{
+    padding: 0;
+    margin: 0 auto;
+    
+  }
+  .avto-boxs{
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .avto-box{
+    width: 200px;
+  }
+  .avto-servis-flex{
+    width: 350px !important;
+    margin: 0;
+    justify-content: center !important;
+    align-items:center !important;
+  }
+  .bg-video{
+    width: 350px;
+    height: 200px;
+  }
+  .avto-servis-img{
+
+    width: 250px;
+    height: 200px;
+    margin-top: 5px;
+  }
+  .avto-servis-img img{
+    object-fit: cover !important;
+    width: 100%;
+  }
+  .avto-salon{
+    width: 350px;
+  }
+  #video{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .avto-servis{
+    width: 350px !important;
+  }
+  #video::after{
+    width: 35px;
+    height: 35px;
+  }
+  #video::before{
+    width: 35px;
+    height: 35px;
+  }
+  .avto-servis-content h6{
+    display: none;
+  }
+  .avto-servis-content .flickity-viewport{
+    width: 350px !important;
+    position: absolute !important;
+    left: 0 !important;
+    height: 500px;
+    display: none;
+
+  }
+  .flickity-button{
+    display: none;
+  }
+  .news-flex{
+    width: 350px !important;
+  }
+  .new-box{
+    width: 100%;
+  }
+  .footer-right{
+    flex-wrap: wrap;
+    align-items:start;
+    justify-content: start;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-left{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .footer-flex{
+    width: 350px !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .footer-container{
+    width: 375px;
+  }
+  .footer-bottom{
+  text-align: center;
+}
+.main-img{
+  display: none;
+  
+}
+.main-text{
+  width: 350px;
+}
+.img-box img{
+  width: 360px;
+}
+.car-details-img{
+  width: 350px !important;
+}
+.img-box{
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.car-details-flex{
+  width: 350px;
+}
+.car-details{
+  width: 350px;
+  gap: 10px;
+}
+.car-details-color .color-list-row{
+  margin-left: 10px;
+  gap: 5px;
+}
+.details{
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 500px;
+}
+.about-container{
+  width: 340px;
+  margin: 0 auto;
+}
+.about-car{
+  padding: 10px;
+}
+.carousel-galereya{
+  width: 375px;
+}
+.galereya{
+  width: 375px;
+}
+.texno{
+  width: 350px;
+}
+.carousel-galereya .flickity-viewport{
+  width: 350px !important;
+}
+.texno h6::after{
+  content:none;
+}
+.texno h6::before{
+  content:none;
+}
+.price-flex{
+  width: 350px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.price-car{
+  width: 375px;
+
+}
+.main-text{
+  margin: 0 auto;
+}
+.main-flex{
+  width: 375px;
+}
+.container-page{
+  width: 375px !important;
+}
+.new-box{
+  width: 90% ;
+  margin: 0 auto;
+}
+.pagination{
+  width: 375px !important;
+}
+#item-list{
+  margin: 0 auto;
+  width: 375px !important;
+}
+.news-title-bg-img{
+  width: 375px;
+}
+.news-title{
+  width: 375px;
+  position: relative;
+}
+.news-title-text{
+  width: 350px;
+  padding:20px;
+  position: absolute;
+  left: -100px;
+
+}
+.news-title-text h1{
+  font-size: 25px;
+  margin: 0;
+  display: inline-block;
+}
+.axborot{
+  width: 375px !important;
+}
+.axborot h3{
+  font-size: 20px;
+}
+.axborot h5{
+  font-size: 15px;
+}
+.content p{
+  font-size: 12px;
+}
+.page-title{
+  font-size: 30px;
+}
+}
+
